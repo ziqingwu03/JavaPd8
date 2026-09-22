@@ -14,10 +14,10 @@ class Main {
     
 */
    
-int x = -5;
-int y = 10; 
+int hi = -5;
+int bye = 10; 
 
-double z = x + y;
+double z = hi + bye;
 
 System.out.println(z);
 
@@ -29,6 +29,12 @@ System.out.println(z);
     
 */
 
+int a = 6;
+int b = 7;
+int c = 8;
+
+double e = a + b + c;
+System.out.println(e);
 
 
 /*  
@@ -38,7 +44,8 @@ System.out.println(z);
     Declare and assign values to any new variables
     NOTE: Does it look correct, check with a calculator?
 */
-
+double avg = (a + b + c) / 3;
+System.out.println(avg);
 
 
 /*  
@@ -47,7 +54,10 @@ System.out.println(z);
     Declare and assign values to any new variables
 
 */
-  
+
+
+double y = A / (x+1);
+System.out.println(y);  
 
 /*  
     Challenge 5:
@@ -56,9 +66,7 @@ System.out.println(z);
     Declare and assign values to any new variables
 
 */
- 
-
-
+y = a/x +1; 
 
 
 
@@ -69,7 +77,7 @@ System.out.println(z);
 
     Declare and assign values to any new variables
 */
- 
+ double area = (1/2) *b *h;
 
 
 
