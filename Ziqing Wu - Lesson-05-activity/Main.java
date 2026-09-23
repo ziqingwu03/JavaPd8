@@ -57,8 +57,9 @@ System.out.println(avg);
 
 int x = 8
 int A = 6;
-double y = A / (x+1);
-System.out.println(y);  
+double y = 0;
+y = A / (x+1);
+System.out.println("y is "+y);  
 
 /*  
     Challenge 5:
@@ -67,7 +68,8 @@ System.out.println(y);
     Declare and assign values to any new variables
 
 */
-y = a/x +1; 
+y = (2*x*(x+1)*(-x/2) ) / A;
+System.out.println("y is "+y)
 
 
 
@@ -78,7 +80,10 @@ y = a/x +1;
 
     Declare and assign values to any new variables
 */
- double area = (1/2) *b *h;
+ double area = 0;
+ double b =4.5;
+ double h=5.4;
+ area = 1/2.0*b*h;
 
 
 
