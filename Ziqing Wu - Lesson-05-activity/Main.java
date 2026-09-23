@@ -1,4 +1,4 @@
-class Main {
+ class Main {
 	public static void main(String[] args) {
     	(new Main()).init();
 	}
@@ -44,7 +44,7 @@ System.out.println(e);
     Declare and assign values to any new variables
     NOTE: Does it look correct, check with a calculator?
 */
-double avg = (a + b + c) / 3;
+double avg = (a + b + c) / 3.0;
 System.out.println(avg);
 
 
@@ -55,7 +55,8 @@ System.out.println(avg);
 
 */
 
-
+int x = 8
+int A = 6;
 double y = A / (x+1);
 System.out.println(y);  
 
